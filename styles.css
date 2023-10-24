@@ -1,0 +1,111 @@
+/* Styles for terms.html */
+
+.terms-page {
+    background-color: #001f3f;
+    /* Dark Navy */
+    color: #ffffff;
+    /* White text */
+    font-family: Arial, sans-serif;
+    /* Arial font */
+}
+
+.container {
+    padding: 30px;
+    border-radius: 10px;
+    justify-content: center;
+    padding-bottom: 2px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Slightly transparent black */
+    box-shadow: 0 1px 6px grey
+}
+
+.terms-content {
+    margin-bottom: 30px;
+}
+
+.terms-content h2 {
+    font-size: 24px;
+    text-align: center;
+}
+.terms-content H3 {
+    text-align: center;
+}
+
+.terms-content p {
+    font-size: 16px;
+    line-height: 1.6;
+    justify-content: left;
+
+}
+.top-menu {
+    background:transparent;
+    /* Dark Navy */
+         backdrop-filter: blur(2px);
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1px;
+    border-bottom: 2px solid grey;
+    box-shadow: 0 1px 6px gold
+      backdrop-filter: blur (8px);
+}
+.top-menu a {
+    float: left;
+    display: block;
+    color: gold;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #0074D9;
+    border-radius: 10px;
+    margin: 8px;
+    box-sizing: border-box;
+    padding-bottom: 6px;
+    padding-top: 7px;
+    font-size: 13px;
+    box-shadow: 0 1px 6px grey
+}
+
+.top-menu a:hover {
+    background-color: green;
+    /* Darker blue on hover */
+    color: black;
+    box-shadow: 0 1px 6px green;
+}
+.logo-container {
+    position: fixed;
+    top: 42px;
+    /* Adjust as needed */
+    left: 9px;
+    /* Adjust as needed */
+
+}
+
+.logo-container img {
+    max-width: 75px;
+    position: relative;
+    height: 57px;
+    width: 60px;
+    /* Adjust the size as needed */
+}
+    .footer {
+        background-color: transparent;
+        box-shadow: 0 1px 6px #0074D9;
+        box-height: 30px;
+        box-width: 20px;
+        justify-content: center;
+        text-align: center;
+    text-align: center;
+    height: 20px;
+    margin-left: 160;
+    border-radius:7px;
+    position: fixed;
+   border-bottom: 2px solid #0074D9;
+    color: white;
+    font-size: 15px;
+    bottom: 15px;
+    overflow: hidden;
+}
